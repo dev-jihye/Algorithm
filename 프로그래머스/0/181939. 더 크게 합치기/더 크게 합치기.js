@@ -5,5 +5,5 @@ function solution(a, b) {
     A = String(a)+String(b);
     B = String(b)+String(a);
     
-    return Math.max(A, B);
+    return Math.max(+A, +B);
 }
