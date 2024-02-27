@@ -13,6 +13,7 @@ var majorityElement = function(nums) {
         }
     });
     
+    console.log(countMap)
     let maxNum = 0;
     
     for(let key in countMap) {
