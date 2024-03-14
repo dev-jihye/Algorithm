@@ -15,13 +15,10 @@ var hIndex = function(citations) {
             } 
         }
         
-        console.log(h, 'h')
-        console.log(count, 'c')
         if(count >= h) {
             hIndex = Math.max(hIndex, h);
         }
         h++;
-          
     }
     
     return hIndex
